@@ -26,7 +26,6 @@ public class App {
                 String result2 = resultSet.getString(2);
                 System.out.println(result1 + "    " + result2);
             }
-
         } catch (Exception e) {
             System.out.println(e);
         }
