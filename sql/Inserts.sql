@@ -87,6 +87,8 @@ insert into classes values ( 'VTO Rocket Interceptor' );
 insert into classes values ( 'VTOL Fighter' );
 insert into classes values ( 'Zeppelin Interceptor' );
 
+insert into companies values ( 'Airbus',
+                               'France' );
 
 insert into countries values ( 'Afghanistan',
                                'Asia' );

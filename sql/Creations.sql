@@ -22,6 +22,9 @@ create table aircrafts (
 
 create sequence ac_id_seq start with 100000 increment by 1 maxvalue 999999;
 
+select ac_id_seq.nextval
+  from dual;
+
 create table countries (
    country_name   varchar2(100) primary key,
    country_region varchar2(100) not null
